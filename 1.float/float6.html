@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+  *{
+  box-sizing: border-box;
+  border: 1px solid red;
+  background-color: black;
+}
+ul.gnb > li {
+  list-style-type: none;
+  float: right;
+  padding-right: 16px;
+}
+header {
+  width: 100%; /* 1 */
+  border-bottom: 1px solid #aaaaaa; /* 2 메뉴아래 구분선*/
+  display: flex; /* 3 */
+  justify-content: space-between; /*4 양끝에 배치하면 균등배치*/
+  top: 0px;
+  left: 0px;
+  align-items: center;
+  position: absolute;
+  font-family: 'Kdam Thmor Pro', sans-serif;
+  z-index: 2;
+}
+header h3 {
+  font: bold;
+  color: white;
+  margin: 0px 20px;
+}
+header .gnb li a {
+  color: white;
+  letter-spacing: 2px; 
+
+}
+header .gnb li b {
+  background-color: blue;
+  color: white;
+  letter-spacing: 2px;
+  border-radius: 3px;
+}
+.mvc {
+  color: white;
+}
+  </style>
+</head>
+<body>
+  <header>
+    <h3> 집</h3>
+    <ul class="gnb">
+      <li><b href="#" >문의하기</b></li>
+      <li><a href="#">REACT</a></li>
+      <li><a href="#">JAVASCRIPT</a></li>
+      <li><a href="#">CSS</a></li>
+      <li><a href="#">HTML</a></li>
+    </ul>
+  </header>
+  <div class="mvc">
+    <h1>MVC패턴</h1>
+    <h1>계층형게시판</h1>
+  </div>
+</body>
+</html>

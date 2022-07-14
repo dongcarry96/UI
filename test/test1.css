@@ -1,0 +1,62 @@
+.box {
+  position: relative;
+  top: 12px;
+  width: 600px;
+  height: 280px;
+  padding: 20px;
+  border: 1px solid black;
+  margin: 20px;
+}
+
+.maintitle {
+  position: absolute;
+  top: -10%;
+  border: 1px solid white;
+  margin: none;
+  background-color: white;
+}
+
+.title{
+  margin: 6px;
+}
+
+.content{
+  margin: 6px;
+}
+
+.uploadFile{
+  margin: 6px;
+}
+
+.number1 {
+color: #eaeaea;
+}
+
+.number2 {
+  color: #eaeaea;
+}
+
+.button {
+  margin: 6px;
+}
+
+hr {
+  top: 100px;
+  margin: 15px;
+}
+
+table {
+  width: 90%;
+  margin: none;
+  margin-left: 6px;
+  margin-right: 6px;
+  border: black;
+}
+
+th {
+  background-color:  #ef5d4d;
+}
+
+tr {
+  background-color: #f5f5a0;
+}

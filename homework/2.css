@@ -1,0 +1,204 @@
+.box1{
+  border: 1px solid red;
+  width: 400px;
+  height: 500px;
+  position:relative
+}
+
+.box2 {
+  border: 1px solid red;
+  width: 300px;
+  height: 400px;
+  position:absolute;
+  left: 50%;
+  top:35%;
+  margin-left:-150px;
+  margin-top:-150px;
+}
+
+.box2-1 {
+  border: 1px solid red;
+  width: 300px;
+  height: 20px;
+  position:absolute;
+  left: 50%;
+  top:37%;
+  margin-left:-150px;
+  margin-top:-150px;
+}
+
+box2-1 .btnMenu {
+  border: 1px solid red;
+  width: 30px;
+  height: 50px;
+  position:absolute;
+  left: 50%;
+  top:37%;
+  margin-left:-150px;
+  margin-top:-150px;
+}
+
+img {
+  position:absolute;
+  left: 75%;
+  top: 43%;
+  border-radius: 50%;
+  margin-left:-150px;
+  margin-top:-150px;
+}
+
+.box2-2 {
+  border: 1px solid red;
+  width: 300px;
+  height: 35px;
+  left: 50%;
+  top: 83%;
+  position:absolute;
+  margin-left:-150px;
+  margin-top:-150px;
+}
+.box2-3 {
+  border: 1px solid red;
+  width: 300px;
+  height: 30px;
+  left: 50%;
+  top: 90%;
+  position:absolute;
+  margin-left:-150px;
+  margin-top:-150px;
+}
+.box2-4 {
+  border: 1px solid red;
+  width: 300px;
+  height: 50px;
+  left: 50%;
+  top: 112%;
+  position:absolute;
+  margin-left:-150px;
+  margin-top:-150px;
+}
+
+.box2-4-1 {
+  border: 1px solid red;
+  position:absolute;
+  margin-left:-150px;
+  margin-top:-150px;
+  width: 70px;
+  height: 25px;
+  left: 50%;
+  top: 325%;
+}
+
+.box2-4-2 {
+  border: 1px solid red;
+  position:absolute;
+  margin-left:-150px;
+  margin-top:-150px;
+  width: 130px;
+  height: 25px;
+  left: 75%;
+  top: 325%;
+}
+
+.box2-5 {
+  border: 1px solid red;
+  width: 300px;
+  height: 50px;
+  left: 50%;
+  top: 125%;
+  position:absolute;
+  margin-left:-150px;
+  margin-top:-150px;
+}
+
+.box2-5-1 {
+  border: 1px solid red;
+  position:absolute;
+  margin-left:-150px;
+  margin-top:-150px;
+  width: 70px;
+  height: 25px;
+  left: 50%;
+  top: 325%;
+}
+
+.box2-5-2 {
+  border: 1px solid red;
+  position:absolute;
+  margin-left:-150px;
+  margin-top:-150px;
+  width: 130px;
+  height: 25px;
+  left: 75%;
+  top: 325%;
+}
+
+.box3{
+  border: 1px solid red;
+  position:absolute;
+  width: 300px;
+  height: 50px;
+  left:  50%;
+  top: 117%;
+  margin-left:-150px;
+  margin-top:-150px;
+}
+
+.one1 {
+  border: 1px solid red;
+  position:absolute;
+  margin-left:-150px;
+  margin-top:-150px;
+  width: 40px;
+  height: 40px;
+  left:  63%;
+  top: 307%;
+  border-radius: 50%;
+  background-color: aqua;
+}
+
+.one2 {
+  border: 1px solid red;
+  position:absolute;
+  margin-left:-150px;
+  margin-top:-150px;
+  width: 40px;
+  height: 40px;
+  left:  83%;
+  top: 307%;
+  border-radius: 50%;
+  background-color: rgb(177, 244, 177);
+}
+
+.one3 {
+  border: 1px solid red;
+  position:absolute;
+  margin-left:-150px;
+  margin-top:-150px;
+  width: 40px;
+  height: 40px;
+  left:  103%;
+  top: 307%;
+  border-radius: 50%;
+  background-color: pink;
+}
+
+.one4 {
+  border: 1px solid red;
+  position:absolute;
+  margin-left:-150px;
+  margin-top:-150px;
+  width: 40px;
+  height: 40px;
+  left:  123%;
+  top: 307%;
+  border-radius: 50%;
+  background-color: rgb(166, 76, 166);
+}
+
+/* 반응형 웹 처리 */
+@media screen and (max-width: 1024px) {
+  .btnMenu {
+    display: block;
+  }
+}

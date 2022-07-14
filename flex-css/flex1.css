@@ -1,0 +1,14 @@
+.container {
+  background-color:beige;
+  height: 100vh; /* 보이는 높이의 100%모두 다 쓸때(viewheight)*/
+  display: flex; /* 왼쪽에서 오른쪽으로 정렬 */
+  flex-flow: row wrap;
+  align-items: baseline; /* 반대축에서 어떻게 할 건지를 결정함 */
+  align-content: center; /* 메안축에서 중앙배치*/
+}
+
+.item{
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+}

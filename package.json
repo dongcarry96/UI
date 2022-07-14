@@ -1,0 +1,31 @@
+{
+  "name": "ui",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "commonjs",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "server": "nodemon render.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dongcarry96/UI.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dongcarry96/UI/issues"
+  },
+  "homepage": "https://github.com/dongcarry96/UI#readme",
+  "keywords": [],
+  "dependencies": {
+    "mocha": "^10.0.0"
+  },
+  "devDependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1"
+  },
+  "description": ""
+}
